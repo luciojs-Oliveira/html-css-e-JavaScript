@@ -1,0 +1,83 @@
+body{
+    
+    background-color: #e6dd34; /* cor do background*/
+    color:#000; /* cor da letra*/
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between; /* coloca um elemento ao lado do outro */
+    list-style-type: none; /* remove elementos ao lado das letras */
+    padding: 16px; /* define o espaçamento interno de um elemento, ou seja, a distância entre o conteúdo e a borda do elemento. */
+    font-family: Arial, Helvetica, sans-serif; /* Usado para mudar a fonte*/
+} 
+
+a {
+    color: black; /* muda a cor da letra */
+    text-decoration: none; /* remove sublinhado */
+
+}
+
+header img {
+    width: 150px; /* define a largura da área de conteúdo de um elemento. Ela é útil para ajustar o layout ou o comportamento de acordo com o tamanho da janela. */
+    height: 150px; /* é usada para indicar a altura de um objeto, área ou elemento. */
+    border-radius: 50%; /*  é usada para arredondar os cantos de um elemento HTML. Ela pode ser aplicada a diversos elementos, como imagens, divs, botões e caixas de texto. */
+    border: 5px solid #5BBE42;
+    
+}
+
+.center {    /* . + nome da classe, ex: .center*/
+
+    text-align: center; /* Usado para centralizar a imagem ou texto*/
+
+}
+
+h1 {
+    color: black;
+    display: flex;
+    align-items: center;
+ }
+
+h2{
+    display: flex;
+    align-items: center;
+    color: black
+    
+    
+    
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 20px;
+}
+
+.container {
+
+    padding: 0px 50px;
+
+
+}
+
+nav a:hover{
+    color: green;
+}
+
